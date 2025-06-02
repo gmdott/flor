@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body {
+    font-family: "Pixelify Sans";
+    background-color: rgb(6, 27, 62);
+    color: rgb(255, 221, 0);
+    justify-items: center;
+    display: block;
+}
+h1 {
+
+    font-size: 64px;
+}
+
+button {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    height: auto;
+    margin: 10px;
+    font-family: 'Pixelify Sans';
+    background-color: rgb(255, 221, 0);
+    padding: 5px;
+    
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    
+    cursor: pointer;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#flor {
+    display: none;
+    height: 500px;
+}
+
+
+#carta {
+    display: none;
+}
+
+#cartaImagem {
+    display: none;
+    height: 500px;
+}
+
+.imagens {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    height: auto;
+    align-items: center;
+}
